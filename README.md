@@ -62,9 +62,9 @@ Read the [Airnode developer documentation](https://docs.api3.org/d/call-an-airno
 ---
 ## GET /xml?product=search <a name="0x170389b363015ed2b8ba94465984ea2341a04df7a363cdf69e447d2069f68efd"></a>
 
-{{ The search product returns a list of the requested location. }}
+The search product returns a list of the requested location.
 
-**Web2 Docs:** {{ https://clients.customweather.com/APIDOCS/#1 }}
+**Web2 Docs:** https://clients.customweather.com/APIDOCS/#1
 
 You'll need the **Endpoint ID** to call this endpoint.
 
@@ -87,9 +87,9 @@ undefined = 'undefined';		// The undefined parameter is fixed to undefined
 ----
 ## GET /xml?product=current_conditions <a name="0xc9ae8368cfeee169ad53df69a038ab8d7d8ec9a2462cf6c4d368a23de053d808"></a>
 
-{{ The current_conditons product returns available weather data from nearby weather stations. }}
+The current_conditons product returns available weather data from nearby weather stations.
 
-**Web2 Docs:** {{ https://clients.customweather.com/APIDOCS/#2 }}
+**Web2 Docs:** https://clients.customweather.com/APIDOCS/#2
 
 You'll need the **Endpoint ID** to call this endpoint.
 
@@ -121,9 +121,9 @@ undefined = 'undefined';		// The undefined parameter is fixed to undefined
 ----
 ## GET /xml?product=estimated_conditions <a name="0x9df8923e6912cbe440c6a24fef4f1186dd35514ac49f3c497e6d191b85f7fa0b"></a>
 
-{{ The estimated_conditions returns estimated conditions based on nearby reporting stations and model data.. }}
+The estimated_conditions returns estimated conditions based on nearby reporting stations and model data.
 
-**Web2 Docs:** {{ https://clients.customweather.com/APIDOCS/#2 }}
+**Web2 Docs:** https://clients.customweather.com/APIDOCS/#2
 
 You'll need the **Endpoint ID** to call this endpoint.
 
@@ -154,9 +154,9 @@ undefined = 'undefined';		// The undefined parameter is fixed to undefined
 ----
 ## GET /xml?product=expanded_forecast <a name="0x41fc40e9d58f24371393a87d9137a325a1dea5adb13ca1d3b9a7b8119d5cbbf4"></a>
 
-{{ The expanded forecast products return daily forecast data for 7 days, 15 days or just for the current day. The times returned are the location's time zone.  }}
+The expanded forecast products return daily forecast data for 7 days, 15 days or just for the current day. The times returned are the location's time zone.
 
-**Web2 Docs:** {{ https://clients.customweather.com/APIDOCS/#3 }}
+**Web2 Docs:** https://clients.customweather.com/APIDOCS/#3
 
 You'll need the **Endpoint ID** to call this endpoint.
 
@@ -185,9 +185,9 @@ undefined = 'undefined';		// The undefined parameter is fixed to undefined
 ----
 ## GET /xml?product=15day_expanded_forecast <a name="0x3e47b07950da455dd6bd45cffcd1127ea042863f4476a798fedf765d1147db04"></a>
 
-{{ Describe the endpoint. Explain what it does and, if possible, deep link to the Web2 documentation. }}
+The 15-day expanded forecast product returns daily forecast data for 15 days.
 
-**Web2 Docs:** {{ https://clients.customweather.com/APIDOCS/#3 }}
+**Web2 Docs:** https://clients.customweather.com/APIDOCS/#3
 
 You'll need the **Endpoint ID** to call this endpoint.
 
@@ -216,9 +216,9 @@ undefined = 'undefined';		// The undefined parameter is fixed to undefined
 ----
 ## GET /xml?product=day1_forecast <a name="0x033b2d927fa4a33f2bcf1ca2f1e456ec31132185e656769ac64e3e80730ffcf2"></a>
 
-{{ Describe the endpoint. Explain what it does and, if possible, deep link to the Web2 documentation. }}
+The day one forecast product return daily forecast data for the current day.
 
-**Web2 Docs:** {{ https://clients.customweather.com/APIDOCS/#3 }}
+**Web2 Docs:** https://clients.customweather.com/APIDOCS/#3
 
 You'll need the **Endpoint ID** to call this endpoint.
 
@@ -247,9 +247,9 @@ undefined = 'undefined';		// The undefined parameter is fixed to undefined
 ----
 ## GET /xml?product=current_one <a name="0x5be87928f14765da196986e5c8c148898f5cf1e285b7326d8736f30123a608f3"></a>
 
-{{ Describe the endpoint. Explain what it does and, if possible, deep link to the Web2 documentation. }}
+The Conditions and Expanded Forecast product returns a combination of the current_conditions and day one of the expanded_forecast product.
 
-**Web2 Docs:** {{ https://clients.customweather.com/APIDOCS/#4 }}
+**Web2 Docs:** https://clients.customweather.com/APIDOCS/#4
 
 You'll need the **Endpoint ID** to call this endpoint.
 
@@ -277,9 +277,9 @@ undefined = 'undefined';		// The undefined parameter is fixed to undefined
 ----
 ## GET /xml?product=current_extended <a name="0xa369cd8010bacd7ae40f01d0b68b09e51e18120b8daa8d89d1df1f428425dd35"></a>
 
-{{ Describe the endpoint. Explain what it does and, if possible, deep link to the Web2 documentation. }}
+The Conditions and Expanded Forecast product returns a combination of the current_conditions and expanded_forecast product.
 
-**Web2 Docs:** {{ https://clients.customweather.com/APIDOCS/#4 }}
+**Web2 Docs:** https://clients.customweather.com/APIDOCS/#4
 
 You'll need the **Endpoint ID** to call this endpoint.
 
@@ -308,9 +308,9 @@ undefined = 'undefined';		// The undefined parameter is fixed to undefined
 ----
 ## GET /xml?product=detailed_forecast <a name="0xc6846e2a34f6222d3b3114974fb4cf3f06dc5d4f5994885c384ae383e508eddc"></a>
 
-{{ Describe the endpoint. Explain what it does and, if possible, deep link to the Web2 documentation. }}
+The detailed forecast product returns a rolling forecast broken down into four segments per day (Morning, Afternoon, Evening, Overnight) for the next 48 hours or 5 days. 
 
-**Web2 Docs:** {{ https://clients.customweather.com/APIDOCS/#5 }}
+**Web2 Docs:** https://clients.customweather.com/APIDOCS/#5
 
 You'll need the **Endpoint ID** to call this endpoint.
 
@@ -339,9 +339,9 @@ undefined = 'undefined';		// The undefined parameter is fixed to undefined
 ----
 ## GET /xml?product=astronomy_forecast <a name="0xe02f084003b68a77213e4675342ac22d5b90424b53d335c5aa4ff468b8735d7e"></a>
 
-{{ Describe the endpoint. Explain what it does and, if possible, deep link to the Web2 documentation. }}
+The astronomy data product returns the moonrise/moonset and sunrise/sunset times for the current day or the next 5 days.
 
-**Web2 Docs:** {{ https://clients.customweather.com/APIDOCS/#6 }}
+**Web2 Docs:** https://clients.customweather.com/APIDOCS/#6
 
 You'll need the **Endpoint ID** to call this endpoint.
 
@@ -370,9 +370,9 @@ undefined = 'undefined';		// The undefined parameter is fixed to undefined
 ----
 ## GET /xml?product=astronomy_forecast_ext <a name="0x92404ed057349ee9ac70b511377b2e0a00c0d138eafa3e5fa2d824115cf725d0"></a>
 
-{{ Describe the endpoint. Explain what it does and, if possible, deep link to the Web2 documentation. }}
+The astronomy data product returns the moonrise/moonset and sunrise/sunset times for the current day or the next 5 days.
 
-**Web2 Docs:** {{ https://clients.customweather.com/APIDOCS/#6 }}
+**Web2 Docs:** https://clients.customweather.com/APIDOCS/#6
 
 You'll need the **Endpoint ID** to call this endpoint.
 
@@ -401,9 +401,9 @@ undefined = 'undefined';		// The undefined parameter is fixed to undefined
 ----
 ## GET /xml?product=one_detailed_marine <a name="0x8fe8fea69a5d584bc6dac3c01ab35b01e0cab8150cb3d38e2e9980dcc35591d7"></a>
 
-{{ Describe the endpoint. Explain what it does and, if possible, deep link to the Web2 documentation. }}
+The detailed marine products returns a rolling forecast broken down into four segments per day (Morning, Afternoon, Evening, Overnight) for the next 48 hours or 7 days for the open ocean and 5 days for the Mediterranean daily. 
 
-**Web2 Docs:** {{ https://clients.customweather.com/APIDOCS/#7 }}
+**Web2 Docs:** https://clients.customweather.com/APIDOCS/#7
 
 You'll need the **Endpoint ID** to call this endpoint.
 
@@ -432,9 +432,9 @@ undefined = 'undefined';		// The undefined parameter is fixed to undefined
 ----
 ## GET /xml?product=one_detailed_marine_7day <a name="0x13be1e76517ba94bdb956519a6e29fc07ce21bef22bf7ee982da59c4594d469c"></a>
 
-{{ Describe the endpoint. Explain what it does and, if possible, deep link to the Web2 documentation. }}
+The detailed marine products returns a rolling forecast broken down into four segments per day (Morning, Afternoon, Evening, Overnight) for the next 48 hours or 7 days for the open ocean and 5 days for the Mediterranean daily.
 
-**Web2 Docs:** {{ https://clients.customweather.com/APIDOCS/#7 }}
+**Web2 Docs:** https://clients.customweather.com/APIDOCS/#7
 
 You'll need the **Endpoint ID** to call this endpoint.
 
@@ -463,9 +463,9 @@ undefined = 'undefined';		// The undefined parameter is fixed to undefined
 ----
 ## GET /xml?product=one_extended_marine <a name="0x82264237c28319b8da517fd9ee2f90233e56ac2bfdd034ae1a28ba7ce784b78e"></a>
 
-{{ Describe the endpoint. Explain what it does and, if possible, deep link to the Web2 documentation. }}
+The detailed marine products returns a rolling forecast broken down into four segments per day (Morning, Afternoon, Evening, Overnight) for the next 48 hours or 7 days for the open ocean and 5 days for the Mediterranean daily.
 
-**Web2 Docs:** {{ https://clients.customweather.com/APIDOCS/#8 }}
+**Web2 Docs:** https://clients.customweather.com/APIDOCS/#8
 
 You'll need the **Endpoint ID** to call this endpoint.
 
@@ -494,9 +494,9 @@ undefined = 'undefined';		// The undefined parameter is fixed to undefined
 ----
 ## GET /xml?product=hourly_forecast <a name="0xf04674f86c1adbea4a2f41aa718b0bc87e48351801f1ba40f5ceb163d640aa23"></a>
 
-{{ Describe the endpoint. Explain what it does and, if possible, deep link to the Web2 documentation. }}
+The hourly forecast product returns hourly forecasts for 12 hours, 48 hours or 7 days. 
 
-**Web2 Docs:** {{ https://clients.customweather.com/APIDOCS/#9 }}
+**Web2 Docs:** https://clients.customweather.com/APIDOCS/#9
 
 You'll need the **Endpoint ID** to call this endpoint.
 
@@ -525,9 +525,9 @@ undefined = 'undefined';		// The undefined parameter is fixed to undefined
 ----
 ## GET /xml?product=hourly_forecast_12hr <a name="0x4e1de2a7d78b0c0b1687a790bd9efaff1206e63865cfc55cda386d4170f8f5dd"></a>
 
-{{ Describe the endpoint. Explain what it does and, if possible, deep link to the Web2 documentation. }}
+The hourly forecast product returns hourly forecasts for 12 hours, 48 hours or 7 days. 
 
-**Web2 Docs:** {{ https://clients.customweather.com/APIDOCS/#9 }}
+**Web2 Docs:** https://clients.customweather.com/APIDOCS/#9
 
 You'll need the **Endpoint ID** to call this endpoint.
 
@@ -556,9 +556,9 @@ undefined = 'undefined';		// The undefined parameter is fixed to undefined
 ----
 ## GET /xml?product=hourly_forecast_48hr <a name="0x683e6091b3f0b16a57786ce4052b1ffc470147db15b57a7fafa025295f02a2a0"></a>
 
-{{ Describe the endpoint. Explain what it does and, if possible, deep link to the Web2 documentation. }}
+The hourly forecast product returns hourly forecasts for 12 hours, 48 hours or 7 days. 
 
-**Web2 Docs:** {{ https://clients.customweather.com/APIDOCS/#9 }}
+**Web2 Docs:** https://clients.customweather.com/APIDOCS/#9
 
 You'll need the **Endpoint ID** to call this endpoint.
 
@@ -587,9 +587,9 @@ undefined = 'undefined';		// The undefined parameter is fixed to undefined
 ----
 ## GET /xml?product=buoy_report <a name="0xced48ce57ce0ecc2a74670683498d673eb42595d8352e7763a37998bdddae354"></a>
 
-{{ Describe the endpoint. Explain what it does and, if possible, deep link to the Web2 documentation. }}
+The buoy data product returns buoy data from available worldwide stations
 
-**Web2 Docs:** {{ https://clients.customweather.com/APIDOCS/#10 }}
+**Web2 Docs:** https://clients.customweather.com/APIDOCS/#10
 
 You'll need the **Endpoint ID** to call this endpoint.
 
@@ -618,9 +618,9 @@ undefined = 'undefined';		// The undefined parameter is fixed to undefined
 ----
 ## GET /xml?product=detailed_fire_danger <a name="0x2b87af9ca50822a1a2fa62585a1eaf5bca22059021a9b10869b87e5d3378fdfe"></a>
 
-{{ Describe the endpoint. Explain what it does and, if possible, deep link to the Web2 documentation. }}
+The fire danger product returns the probability of fire danger for specific areas based on soil moisture and weather conditions broken down into four segments per day (Morning, Afternoon, Evening, Overnight) for the next 48 hours. Indicates the reason for probability, for example, high winds.
 
-**Web2 Docs:** {{ https://clients.customweather.com/APIDOCS/#11 }}
+**Web2 Docs:** https://clients.customweather.com/APIDOCS/#11
 
 You'll need the **Endpoint ID** to call this endpoint.
 
@@ -650,9 +650,9 @@ undefined = 'undefined';		// The undefined parameter is fixed to undefined
 ----
 ## GET /xml?product=extended_fire_danger <a name="0x0182de4489a6e10a0b6cd577d5f588b04850d9af885b04ef6c72e6cb95dd0ed7"></a>
 
-{{ Describe the endpoint. Explain what it does and, if possible, deep link to the Web2 documentation. }}
+The fire danger product returns the probability of fire danger for specific areas based on soil moisture and weather conditions for the next 5 days. Indicates the reason for probability, for example, high winds.
 
-**Web2 Docs:** {{ https://clients.customweather.com/APIDOCS/#12 }}
+**Web2 Docs:** https://clients.customweather.com/APIDOCS/#12
 
 You'll need the **Endpoint ID** to call this endpoint.
 
@@ -681,9 +681,9 @@ undefined = 'undefined';		// The undefined parameter is fixed to undefined
 ----
 ## GET /xml?product=hurricane <a name="0x74c8991ab008fd066eea101f4ae529aa050aa35595b142520dee88c8b8658cb3"></a>
 
-{{ Describe the endpoint. Explain what it does and, if possible, deep link to the Web2 documentation. }}
+The hurricane products returns all the active tropical storms.
 
-**Web2 Docs:** {{ https://clients.customweather.com/APIDOCS/#13 }}
+**Web2 Docs:** https://clients.customweather.com/APIDOCS/#13
 
 You'll need the **Endpoint ID** to call this endpoint.
 
@@ -708,9 +708,9 @@ undefined = 'undefined';		// The undefined parameter is fixed to undefined
 ----
 ## GET /xml?product=air_quality_obs <a name="0xb71a2fdc4b00e65e680084063204672e6dadc01c31c9f3548eeb9b113dc8c51b"></a>
 
-{{ Describe the endpoint. Explain what it does and, if possible, deep link to the Web2 documentation. }}
+Returns air quality observations data from US stations.
 
-**Web2 Docs:** {{ https://clients.customweather.com/APIDOCS/#14 }}
+**Web2 Docs:** https://clients.customweather.com/APIDOCS/#14
 
 You'll need the **Endpoint ID** to call this endpoint.
 
@@ -739,9 +739,9 @@ undefined = 'undefined';		// The undefined parameter is fixed to undefined
 ----
 ## GET /xml?product=air_quality_for <a name="0x51da27956eda472f120ba24ecac8e6be4798abf96897acca27543aa06b35b531"></a>
 
-{{ Describe the endpoint. Explain what it does and, if possible, deep link to the Web2 documentation. }}
+Returns air quality forecasts for the next 7 days for US stations.
 
-**Web2 Docs:** {{ https://clients.customweather.com/APIDOCS/#15 }}
+**Web2 Docs:** https://clients.customweather.com/APIDOCS/#15
 
 You'll need the **Endpoint ID** to call this endpoint.
 
@@ -770,9 +770,9 @@ undefined = 'undefined';		// The undefined parameter is fixed to undefined
 ----
 ## GET /xml?product=airport_delay <a name="0x7de78be37ba34248aca606a85d3fdb3ebbb38eb303c084694087a762f7e34aa6"></a>
 
-{{ Describe the endpoint. Explain what it does and, if possible, deep link to the Web2 documentation. }}
+Returns 7-day airport delays forecast for the nearest airports or just the nearest airport (one_airport_delay). 
 
-**Web2 Docs:** {{ https://clients.customweather.com/APIDOCS/#16 }}
+**Web2 Docs:** https://clients.customweather.com/APIDOCS/#16
 
 You'll need the **Endpoint ID** to call this endpoint.
 
@@ -801,9 +801,9 @@ undefined = 'undefined';		// The undefined parameter is fixed to undefined
 ----
 ## GET /xml?product=one_airport_delay <a name="0x73e6db91f9a96db5926c6a1677a30899efc2a2d5ed52ad2390ec9e26f68e5637"></a>
 
-{{ Describe the endpoint. Explain what it does and, if possible, deep link to the Web2 documentation. }}
+Returns 7-day airport delays forecast for the nearest airports or just the nearest airport (one_airport_delay). 
 
-**Web2 Docs:** {{ https://clients.customweather.com/APIDOCS/#16 }}
+**Web2 Docs:** https://clients.customweather.com/APIDOCS/#16
 
 You'll need the **Endpoint ID** to call this endpoint.
 
@@ -832,9 +832,9 @@ undefined = 'undefined';		// The undefined parameter is fixed to undefined
 ----
 ## GET /xml?product=detailed_cw_advisories_6hr <a name="0x4fb95f4973c0ea1e26424bb163574b1606e42e5e2a19040883a025e4a01921b7"></a>
 
-{{ Describe the endpoint. Explain what it does and, if possible, deep link to the Web2 documentation. }}
+The product returns advisories based on the forecast for the next six or 24 hours or five days broken down into segments of the day (Morning, Afternoon, Evening, Overnight). 
 
-**Web2 Docs:** {{ https://clients.customweather.com/APIDOCS/#17 }}
+**Web2 Docs:** https://clients.customweather.com/APIDOCS/#17
 
 You'll need the **Endpoint ID** to call this endpoint.
 
@@ -863,9 +863,9 @@ undefined = 'undefined';		// The undefined parameter is fixed to undefined
 ----
 ## GET /xml?product=detailed_cw_advisories <a name="0x0067909e416e0989482e1f9694d01940aaeb63700b845c0dde1b97be84b24763"></a>
 
-{{ Describe the endpoint. Explain what it does and, if possible, deep link to the Web2 documentation. }}
-
-**Web2 Docs:** {{ https://clients.customweather.com/APIDOCS/#17 }}
+The product returns advisories based on the forecast for the next six or 24 hours or five days broken down into segments of the day (Morning, Afternoon, Evening, Overnight). 
+ 
+**Web2 Docs:** https://clients.customweather.com/APIDOCS/#17
 
 You'll need the **Endpoint ID** to call this endpoint.
 
@@ -894,9 +894,9 @@ undefined = 'undefined';		// The undefined parameter is fixed to undefined
 ----
 ## GET /xml?product=detailed_cw_advisories_ext <a name="0x81120f77f2de3cbf82150afffe0ff309e99332f69e99a6d05a3cbe00c86f483b"></a>
 
-{{ Describe the endpoint. Explain what it does and, if possible, deep link to the Web2 documentation. }}
+The product returns advisories based on the forecast for the next six or 24 hours or 5 days. 
 
-**Web2 Docs:** {{ https://clients.customweather.com/APIDOCS/#17 }}
+**Web2 Docs:** https://clients.customweather.com/APIDOCS/#17
 
 You'll need the **Endpoint ID** to call this endpoint.
 
@@ -925,9 +925,9 @@ undefined = 'undefined';		// The undefined parameter is fixed to undefined
 ----
 ## GET /xml?product=intl_alerts <a name="0xcd27519c1b16b02aa0a7af975be967e878e0d9a9df1b590853a108e71f43dedf"></a>
 
-{{ Describe the endpoint. Explain what it does and, if possible, deep link to the Web2 documentation. }}
+The product returns National Weather Service and Canadian Weather Service weather alerts.
 
-**Web2 Docs:** {{ https://clients.customweather.com/APIDOCS/#19 }}
+**Web2 Docs:** https://clients.customweather.com/APIDOCS/#19
 
 You'll need the **Endpoint ID** to call this endpoint.
 
@@ -958,9 +958,9 @@ undefined = 'undefined';		// The undefined parameter is fixed to undefined
 ----
 ## GET /xml?product=nws_alerts <a name="0xe3e2c818ca5e8920fa104816039a3ccbf481d8e7bc3c3e791f61560b9742dc9e"></a>
 
-{{ Describe the endpoint. Explain what it does and, if possible, deep link to the Web2 documentation. }}
+The product returns National Weather Service weather alerts.
 
-**Web2 Docs:** {{ https://clients.customweather.com/APIDOCS/#19 }}
+**Web2 Docs:** https://clients.customweather.com/APIDOCS/#19
 
 You'll need the **Endpoint ID** to call this endpoint.
 
@@ -991,9 +991,9 @@ undefined = 'undefined';		// The undefined parameter is fixed to undefined
 ----
 ## GET /xml?product=earthquake <a name="0x7fe6ffbf758589de6051c535d7b4dd51ee85d7201a671518d41a6be2eb3b230e"></a>
 
-{{ Describe the endpoint. Explain what it does and, if possible, deep link to the Web2 documentation. }}
-
-**Web2 Docs:** {{ https://clients.customweather.com/APIDOCS/#23 }}
+ The earthquakes product returns a summary of all of the earthquakes from around the world for up to the past 7 days. 
+ 
+**Web2 Docs:** https://clients.customweather.com/APIDOCS/#23
 
 You'll need the **Endpoint ID** to call this endpoint.
 
@@ -1025,9 +1025,9 @@ undefined = 'undefined';		// The undefined parameter is fixed to undefined
 ----
 ## GET /xml?product=tide_forecast <a name="0xdf96fc68b2268ce4283088ade21c4a8087a0f5f96554a9310535b8c911a9d0b7"></a>
 
-{{ Describe the endpoint. Explain what it does and, if possible, deep link to the Web2 documentation. }}
+The tide data product returns tide data for the next 3 days or 30 days.
 
-**Web2 Docs:** {{ https://clients.customweather.com/APIDOCS/#24 }}
+**Web2 Docs:** https://clients.customweather.com/APIDOCS/#24
 
 You'll need the **Endpoint ID** to call this endpoint.
 
@@ -1056,9 +1056,9 @@ undefined = 'undefined';		// The undefined parameter is fixed to undefined
 ----
 ## GET /xml?product=tide_forecast_30day <a name="0xc5d066b40a16bfaa7cf29f8e86b0f51229a25a94963d6d027baca498fe3fc0f6"></a>
 
-{{ Describe the endpoint. Explain what it does and, if possible, deep link to the Web2 documentation. }}
+The tide data product returns tide data for the next 3 days or 30 days. 
 
-**Web2 Docs:** {{ https://clients.customweather.com/APIDOCS/#24 }}
+**Web2 Docs:** https://clients.customweather.com/APIDOCS/#24
 
 You'll need the **Endpoint ID** to call this endpoint.
 
